@@ -19,11 +19,11 @@ Uma abordagem ágil trabalha em incrementos pequenos, priorizados por valor e av
 
 ### Práticas para adoção imediata
 
-- Backlog priorizado e histórias de usuário: o Product Owner ordena necessidades por valor, risco e urgência; histórias pequenas recebem critérios de aceitação antes do desenvolvimento.
-- Sprints curtas com review: ciclos de duas semanas criam uma cadência de entrega; a review concentra o tempo limitado do cliente na inspeção de software real.
-- Integração contínua e testes automatizados: cada mudança integrada passa por testes, reduzindo regressões e mantendo o incremento potencialmente entregável.
-- Daily Scrum curta: quinze minutos para inspecionar o avanço rumo à Meta da Sprint e adaptar o plano, sem virar relatório ao gestor.
-- Retrospectiva: ao fim de cada Sprint, a equipe escolhe uma melhoria concreta e acompanha seu resultado no ciclo seguinte.
+- **Backlog priorizado e histórias de usuário:** o Product Owner ordena necessidades por valor, risco e urgência; histórias pequenas recebem critérios de aceitação antes do desenvolvimento.
+- **Sprints curtas com review:** ciclos de duas semanas criam uma cadência de entrega; a review concentra o tempo limitado do cliente na inspeção de software real.
+- **Integração contínua e testes automatizados:** cada mudança integrada passa por testes, reduzindo regressões e mantendo o incremento potencialmente entregável.
+- **Daily Scrum curta:** quinze minutos para inspecionar o avanço rumo à Meta da Sprint e adaptar o plano, sem virar relatório ao gestor.
+- **Retrospectiva:** ao fim de cada Sprint, a equipe escolhe uma melhoria concreta e acompanha seu resultado no ciclo seguinte.
 
 ## Item 1.b: programação em pares
 
@@ -33,16 +33,16 @@ Em EAD, a prática enfrenta conexão instável, fusos e agendas diferentes, fadi
 
 Duas adaptações viáveis são:
 
-1. Pareamento remoto síncrono em blocos curtos: sessões de 45 a 60 minutos por compartilhamento de tela ou edição colaborativa, objetivo pequeno, papéis alternados a cada 15–20 minutos e pausas entre blocos. A agenda é combinada com antecedência.
-2. Pareamento assíncrono por revezamento: uma pessoa implementa uma etapa pequena e registra contexto, dúvidas e testes; a outra revisa e continua em um commit separado. Um encontro breve resolve divergências. Preserva a colaboração quando os horários não coincidem, embora o feedback não seja instantâneo.
+1. **Pareamento remoto síncrono em blocos curtos:** sessões de 45 a 60 minutos por compartilhamento de tela ou edição colaborativa, objetivo pequeno, papéis alternados a cada 15–20 minutos e pausas entre blocos. A agenda é combinada com antecedência.
+2. **Pareamento assíncrono por revezamento:** uma pessoa implementa uma etapa pequena e registra contexto, dúvidas e testes; a outra revisa e continua em um commit separado. Um encontro breve resolve divergências. Preserva a colaboração quando os horários não coincidem, embora o feedback não seja instantâneo.
 
 ## Item 1.c: dificuldades essenciais de Brooks
 
 As quatro dificuldades existem em software, mas três se destacam neste caso:
 
-- Mutabilidade (mais relevante): requisitos e prioridades mudam frequentemente porque o produto e o mercado evoluem. Backlog reordenável, Sprints curtas e reviews tornam a mudança incremental e controlada.
-- Invisibilidade (muito relevante): software e seu progresso não são naturalmente visíveis; requisitos vagos ampliam o problema. Quadro Kanban, metas de Sprint, incrementos demonstráveis e testes tornam estado, limites e resultados observáveis.
-- Complexidade (muito relevante): regras e interações se acumulam mesmo em um sistema pequeno. Histórias pequenas, design simples, refatoração, testes e programação em pares ajudam a controlar essa complexidade sem fingir eliminá-la.
-- Conformidade (relevante à medida que surgem integrações): o sistema web terá de respeitar interfaces, regras de negócio e possivelmente normas externas. Critérios de aceitação, Definition of Done, testes de integração e feedback especializado verificam essa adequação cedo.
+- **Mutabilidade (mais relevante):** requisitos e prioridades mudam frequentemente porque o produto e o mercado evoluem. Backlog reordenável, Sprints curtas e reviews tornam a mudança incremental e controlada.
+- **Invisibilidade (muito relevante):** software e seu progresso não são naturalmente visíveis; requisitos vagos ampliam o problema. Quadro Kanban, metas de Sprint, incrementos demonstráveis e testes tornam estado, limites e resultados observáveis.
+- **Complexidade (muito relevante):** regras e interações se acumulam mesmo em um sistema pequeno. Histórias pequenas, design simples, refatoração, testes e programação em pares ajudam a controlar essa complexidade sem fingir eliminá-la.
+- **Conformidade (relevante à medida que surgem integrações):** o sistema web terá de respeitar interfaces, regras de negócio e possivelmente normas externas. Critérios de aceitação, Definition of Done, testes de integração e feedback especializado verificam essa adequação cedo.
 
 Métodos ágeis mitigam essas dificuldades por inspeção e adaptação frequentes, comunicação e entregas incrementais. Eles não removem as dificuldades essenciais, especialmente a complexidade inerente ao domínio, mas reduzem descoberta tardia, trabalho especulativo e custo de correção.
