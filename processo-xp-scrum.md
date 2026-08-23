@@ -17,7 +17,7 @@ Cards iniciais:
 
 Cada história deve conter critérios de aceitação, prioridade e estimativa. Um card entra em Pronto para a Sprint quando estiver pequeno e compreendido; passa por desenvolvimento em par, testes e revisão antes de Concluído. A coluna final exige o atendimento da Definition of Done.
 
-> Link do GitHub Projects: https://github.com/users/diastsx/projects/1/views/1
+> Link do GitHub Projects: [AgileTech Solutions](https://github.com/users/diastsx/projects/1/views/1)
 
 ### Práticas de XP
 
