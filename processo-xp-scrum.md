@@ -8,12 +8,12 @@ O quadro usa as colunas Backlog, Pronto para a Sprint, Em desenvolvimento, Em re
 
 Cards iniciais:
 
-1. US01 - Cadastrar usuário: como visitante, quero criar uma conta com nome, e-mail e senha para acessar o sistema.
-2. US02 - Fazer login: como usuário cadastrado, quero entrar com e-mail e senha para acessar minha conta.
-3. US03 - Listar projetos: como usuário, quero visualizar meus projetos para escolher em qual trabalhar.
-4. US04 - Criar projeto: como usuário, quero criar um projeto com nome e descrição para organizar o trabalho.
-5. US05 - Criar tarefa no projeto: como membro, quero registrar uma tarefa com título e responsável para tornar o trabalho visível.
-6. T01 - Configurar integração contínua: executar os testes automaticamente em cada mudança proposta.
+1. **US01 - Cadastrar usuário:** como visitante, quero criar uma conta com nome, e-mail e senha para acessar o sistema.
+2. **US02 - Fazer login:** como usuário cadastrado, quero entrar com e-mail e senha para acessar minha conta.
+3. **US03 - Listar projetos:** como usuário, quero visualizar meus projetos para escolher em qual trabalhar.
+4. **US04 - Criar projeto:** como usuário, quero criar um projeto com nome e descrição para organizar o trabalho.
+5. **US05 - Criar tarefa no projeto:** como membro, quero registrar uma tarefa com título e responsável para tornar o trabalho visível.
+6. **T01 - Configurar integração contínua:** executar os testes automaticamente em cada mudança proposta.
 
 Cada história deve conter critérios de aceitação, prioridade e estimativa. Um card entra em Pronto para a Sprint quando estiver pequeno e compreendido; passa por desenvolvimento em par, testes e revisão antes de Concluído. A coluna final exige o atendimento da Definition of Done.
 
@@ -21,13 +21,13 @@ Cada história deve conter critérios de aceitação, prioridade e estimativa. U
 
 ### Práticas de XP
 
-1. Programação em pares: piloto e navegador alternam papéis para produzir e revisar o código continuamente.
-2. Desenvolvimento orientado a testes (TDD): quando aplicável, escreve-se primeiro um teste que falha, depois o código mínimo que o faz passar e, por fim, refatora-se.
-3. Integração contínua: mudanças pequenas são integradas frequentemente e validadas por uma execução automatizada.
-4. Design simples: implementa-se a solução mais simples que atende às histórias atuais, evitando antecipação (YAGNI).
-5. Refatoração contínua: a estrutura interna é melhorada sem alterar o comportamento, apoiada por testes.
-6. Propriedade coletiva do código: qualquer integrante pode melhorar qualquer parte, respeitando revisão, testes e padrões acordados.
-7. Pequenas versões: cada Sprint busca um incremento utilizável e potencialmente entregável.
+1. **Programação em pares:** piloto e navegador alternam papéis para produzir e revisar o código continuamente.
+2. **Desenvolvimento orientado a testes (TDD):** quando aplicável, escreve-se primeiro um teste que falha, depois o código mínimo que o faz passar e, por fim, refatora-se.
+3. **Integração contínua:** mudanças pequenas são integradas frequentemente e validadas por uma execução automatizada.
+4. **Design simples:** implementa-se a solução mais simples que atende às histórias atuais, evitando antecipação (YAGNI).
+5. **Refatoração contínua:** a estrutura interna é melhorada sem alterar o comportamento, apoiada por testes.
+6. **Propriedade coletiva do código:** qualquer integrante pode melhorar qualquer parte, respeitando revisão, testes e padrões acordados.
+7. **Pequenas versões:** cada Sprint busca um incremento utilizável e potencialmente entregável.
 
 ### Integração entre XP e Scrum
 
@@ -39,10 +39,10 @@ Um item só integra o incremento quando cumpre a Definition of Done: critérios 
 
 ### Fluxo semanal
 
-- Segunda-feira: na primeira semana ocorre a Sprint Planning; nas demais, refinamento curto do backlog. A equipe confirma objetivos técnicos e forma pares.
-- Todos os dias úteis: Daily Scrum de 15 minutos; desenvolvimento em pares, TDD, refatoração e integração de mudanças pequenas ao longo do dia.
-- Durante a semana: Product Owner esclarece critérios; cards avançam conforme evidência real, respeitando limites de trabalho em progresso.
-- Sexta-feira: verificação do incremento e integração, sem criar uma “fase de testes” isolada. Na segunda sexta-feira acontecem Sprint Review e Retrospective.
+- **Segunda-feira:** na primeira semana ocorre a Sprint Planning; nas demais, refinamento curto do backlog. A equipe confirma objetivos técnicos e forma pares.
+- **Todos os dias úteis:** Daily Scrum de 15 minutos; desenvolvimento em pares, TDD, refatoração e integração de mudanças pequenas ao longo do dia.
+- **Durante a semana:** Product Owner esclarece critérios; cards avançam conforme evidência real, respeitando limites de trabalho em progresso.
+- **Sexta-feira:** verificação do incremento e integração, sem criar uma “fase de testes” isolada. Na segunda sexta-feira acontecem Sprint Review e Retrospective.
 
 ## Item 2.b: Sprint e comparação entre métodos
 
